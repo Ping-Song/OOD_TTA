@@ -10,7 +10,7 @@ import openai
 
 
 # Load API Key securely
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "sk-...")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Initialize OpenAI Client
 client = openai.OpenAI(api_key=OPENAI_API_KEY)

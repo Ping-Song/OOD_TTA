@@ -9,6 +9,7 @@ conda create -n ood_tta python=3.10
 conda activate ood_tta
 pip install -r requirements.txt
 
+
 ## Citation
 
 If you use this code in your research, please cite:
@@ -21,7 +22,7 @@ If you use this code in your research, please cite:
   year={2026},
   url={https://openreview.net/pdf?id=xptPQVCy5X}
 }
-
+```
 
 
 
